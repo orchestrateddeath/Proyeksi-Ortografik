@@ -1,0 +1,630 @@
+object Form1: TForm1
+  Left = 187
+  Height = 683
+  Top = 18
+  Width = 1014
+  Caption = 'Form1'
+  ClientHeight = 683
+  ClientWidth = 1014
+  OnShow = FormShow
+  LCLVersion = '2.0.0.4'
+  object Label1: TLabel
+    Left = 18
+    Height = 15
+    Top = 24
+    Width = 13
+    Caption = 'X1'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 160
+    Height = 15
+    Top = 24
+    Width = 13
+    Caption = 'Y1'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 18
+    Height = 15
+    Top = 56
+    Width = 13
+    Caption = 'X2'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 160
+    Height = 15
+    Top = 56
+    Width = 13
+    Caption = 'Y2'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 18
+    Height = 15
+    Top = 88
+    Width = 13
+    Caption = 'X3'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 160
+    Height = 15
+    Top = 88
+    Width = 13
+    Caption = 'Y3'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 18
+    Height = 15
+    Top = 120
+    Width = 13
+    Caption = 'X4'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 160
+    Height = 15
+    Top = 120
+    Width = 13
+    Caption = 'Y4'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 18
+    Height = 15
+    Top = 152
+    Width = 13
+    Caption = 'X5'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 160
+    Height = 15
+    Top = 152
+    Width = 13
+    Caption = 'Y5'
+    ParentColor = False
+  end
+  object EditX1: TEdit
+    Left = 60
+    Height = 23
+    Top = 24
+    Width = 80
+    TabOrder = 0
+    Text = '50'
+  end
+  object EditY1: TEdit
+    Left = 200
+    Height = 23
+    Top = 24
+    Width = 80
+    TabOrder = 1
+    Text = '50'
+  end
+  object EditX2: TEdit
+    Left = 60
+    Height = 23
+    Top = 56
+    Width = 80
+    TabOrder = 2
+    Text = '100'
+  end
+  object EditY2: TEdit
+    Left = 200
+    Height = 23
+    Top = 56
+    Width = 80
+    TabOrder = 3
+    Text = '150'
+  end
+  object EditX3: TEdit
+    Left = 60
+    Height = 23
+    Top = 88
+    Width = 80
+    TabOrder = 4
+    Text = '150'
+  end
+  object EditY3: TEdit
+    Left = 200
+    Height = 23
+    Top = 88
+    Width = 80
+    TabOrder = 5
+    Text = '50'
+  end
+  object EditX4: TEdit
+    Left = 60
+    Height = 23
+    Top = 120
+    Width = 80
+    TabOrder = 6
+    Text = '25'
+  end
+  object EditY4: TEdit
+    Left = 200
+    Height = 23
+    Top = 120
+    Width = 80
+    TabOrder = 7
+    Text = '115'
+  end
+  object EditX5: TEdit
+    Left = 60
+    Height = 23
+    Top = 152
+    Width = 80
+    TabOrder = 8
+    Text = '175'
+  end
+  object EditY5: TEdit
+    Left = 200
+    Height = 23
+    Top = 152
+    Width = 80
+    TabOrder = 9
+    Text = '115'
+  end
+  object ButtonClear: TButton
+    Left = 272
+    Height = 25
+    Top = 578
+    Width = 75
+    Caption = 'Clear'
+    OnClick = ButtonClearClick
+    TabOrder = 10
+  end
+  object ColorBox1: TColorBox
+    Left = 70
+    Height = 22
+    Top = 400
+    Width = 127
+    ItemHeight = 16
+    TabOrder = 11
+  end
+  object Label11: TLabel
+    Left = 21
+    Height = 15
+    Top = 208
+    Width = 13
+    Caption = 'P1'
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 21
+    Height = 15
+    Top = 248
+    Width = 13
+    Caption = 'P2'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 21
+    Height = 15
+    Top = 288
+    Width = 13
+    Caption = 'P3'
+    ParentColor = False
+  end
+  object Label14: TLabel
+    Left = 21
+    Height = 15
+    Top = 328
+    Width = 13
+    Caption = 'P4'
+    ParentColor = False
+  end
+  object Label15: TLabel
+    Left = 21
+    Height = 15
+    Top = 368
+    Width = 13
+    Caption = 'P5'
+    ParentColor = False
+  end
+  object Label16: TLabel
+    Left = 49
+    Height = 15
+    Top = 184
+    Width = 13
+    Caption = 'P1'
+    ParentColor = False
+  end
+  object Label17: TLabel
+    Left = 93
+    Height = 15
+    Top = 184
+    Width = 13
+    Caption = 'P2'
+    ParentColor = False
+  end
+  object Label18: TLabel
+    Left = 141
+    Height = 15
+    Top = 184
+    Width = 13
+    Caption = 'P3'
+    ParentColor = False
+  end
+  object Label19: TLabel
+    Left = 189
+    Height = 15
+    Top = 184
+    Width = 13
+    Caption = 'P4'
+    ParentColor = False
+  end
+  object Label20: TLabel
+    Left = 234
+    Height = 15
+    Top = 184
+    Width = 13
+    Caption = 'P5'
+    ParentColor = False
+  end
+  object CheckBox11: TCheckBox
+    Left = 49
+    Height = 19
+    Top = 208
+    Width = 20
+    TabOrder = 12
+  end
+  object CheckBox12: TCheckBox
+    Left = 49
+    Height = 19
+    Top = 248
+    Width = 20
+    TabOrder = 13
+  end
+  object CheckBox13: TCheckBox
+    Left = 49
+    Height = 19
+    Top = 287
+    Width = 20
+    TabOrder = 14
+  end
+  object CheckBox14: TCheckBox
+    Left = 49
+    Height = 19
+    Top = 327
+    Width = 20
+    TabOrder = 15
+  end
+  object CheckBox15: TCheckBox
+    Left = 49
+    Height = 19
+    Top = 368
+    Width = 20
+    TabOrder = 16
+  end
+  object CheckBox21: TCheckBox
+    Left = 93
+    Height = 19
+    Top = 208
+    Width = 20
+    TabOrder = 17
+  end
+  object CheckBox22: TCheckBox
+    Left = 93
+    Height = 19
+    Top = 248
+    Width = 20
+    TabOrder = 18
+  end
+  object CheckBox23: TCheckBox
+    Left = 93
+    Height = 19
+    Top = 288
+    Width = 20
+    TabOrder = 19
+  end
+  object CheckBox24: TCheckBox
+    Left = 93
+    Height = 19
+    Top = 327
+    Width = 20
+    TabOrder = 20
+  end
+  object CheckBox25: TCheckBox
+    Left = 93
+    Height = 19
+    Top = 368
+    Width = 20
+    TabOrder = 21
+  end
+  object CheckBox31: TCheckBox
+    Left = 141
+    Height = 19
+    Top = 208
+    Width = 20
+    TabOrder = 22
+  end
+  object CheckBox32: TCheckBox
+    Left = 141
+    Height = 19
+    Top = 248
+    Width = 20
+    TabOrder = 23
+  end
+  object CheckBox33: TCheckBox
+    Left = 141
+    Height = 19
+    Top = 288
+    Width = 20
+    TabOrder = 24
+  end
+  object CheckBox34: TCheckBox
+    Left = 141
+    Height = 19
+    Top = 327
+    Width = 20
+    TabOrder = 25
+  end
+  object CheckBox35: TCheckBox
+    Left = 141
+    Height = 19
+    Top = 368
+    Width = 20
+    TabOrder = 26
+  end
+  object CheckBox41: TCheckBox
+    Left = 189
+    Height = 19
+    Top = 208
+    Width = 20
+    TabOrder = 27
+  end
+  object CheckBox42: TCheckBox
+    Left = 189
+    Height = 19
+    Top = 248
+    Width = 20
+    TabOrder = 28
+  end
+  object CheckBox43: TCheckBox
+    Left = 189
+    Height = 19
+    Top = 288
+    Width = 20
+    TabOrder = 29
+  end
+  object CheckBox44: TCheckBox
+    Left = 189
+    Height = 19
+    Top = 327
+    Width = 20
+    TabOrder = 30
+  end
+  object CheckBox45: TCheckBox
+    Left = 189
+    Height = 19
+    Top = 368
+    Width = 20
+    TabOrder = 31
+  end
+  object CheckBox51: TCheckBox
+    Left = 236
+    Height = 19
+    Top = 208
+    Width = 20
+    TabOrder = 32
+  end
+  object CheckBox52: TCheckBox
+    Left = 236
+    Height = 19
+    Top = 248
+    Width = 20
+    TabOrder = 33
+  end
+  object CheckBox53: TCheckBox
+    Left = 236
+    Height = 19
+    Top = 288
+    Width = 20
+    TabOrder = 34
+  end
+  object CheckBox54: TCheckBox
+    Left = 236
+    Height = 19
+    Top = 328
+    Width = 20
+    TabOrder = 35
+  end
+  object CheckBox55: TCheckBox
+    Left = 236
+    Height = 19
+    Top = 368
+    Width = 20
+    TabOrder = 36
+  end
+  object ButtonMatriks: TButton
+    Left = 368
+    Height = 25
+    Top = 578
+    Width = 75
+    Caption = 'Matriks'
+    OnClick = ButtonMatriksClick
+    TabOrder = 37
+  end
+  object Label21: TLabel
+    Left = 18
+    Height = 15
+    Top = 483
+    Width = 12
+    Caption = 'Tx'
+    ParentColor = False
+  end
+  object Label22: TLabel
+    Left = 146
+    Height = 15
+    Top = 483
+    Width = 13
+    Caption = 'Ty'
+    ParentColor = False
+  end
+  object Label23: TLabel
+    Left = 18
+    Height = 15
+    Top = 515
+    Width = 11
+    Caption = 'Sx'
+    ParentColor = False
+  end
+  object Label24: TLabel
+    Left = 146
+    Height = 15
+    Top = 515
+    Width = 12
+    Caption = 'Sy'
+    ParentColor = False
+  end
+  object Label25: TLabel
+    Left = 61
+    Height = 15
+    Top = 547
+    Width = 32
+    Caption = 'Rotasi'
+    ParentColor = False
+  end
+  object EditTx: TEdit
+    Left = 42
+    Height = 23
+    Top = 483
+    Width = 80
+    TabOrder = 38
+    Text = '10'
+  end
+  object EditSx: TEdit
+    Left = 42
+    Height = 23
+    Top = 515
+    Width = 80
+    TabOrder = 39
+    Text = '1,1'
+  end
+  object EditTy: TEdit
+    Left = 170
+    Height = 23
+    Top = 483
+    Width = 80
+    TabOrder = 40
+    Text = '10'
+  end
+  object EditSy: TEdit
+    Left = 167
+    Height = 23
+    Top = 515
+    Width = 80
+    TabOrder = 41
+    Text = '1,1'
+  end
+  object EditRot: TEdit
+    Left = 109
+    Height = 23
+    Top = 547
+    Width = 80
+    TabOrder = 42
+    Text = '30'
+  end
+  object ButtonTranslasi: TButton
+    Left = 464
+    Height = 25
+    Top = 578
+    Width = 75
+    Caption = 'Translasi'
+    OnClick = ButtonTranslasiClick
+    TabOrder = 43
+  end
+  object ButtonScaling: TButton
+    Left = 560
+    Height = 25
+    Top = 578
+    Width = 75
+    Caption = 'Scaling'
+    OnClick = ButtonScalingClick
+    TabOrder = 44
+  end
+  object ButtonRotasi: TButton
+    Left = 656
+    Height = 25
+    Top = 578
+    Width = 75
+    Caption = 'Rotasi'
+    OnClick = ButtonRotasiClick
+    TabOrder = 45
+  end
+  object TrackBar1: TTrackBar
+    Left = 18
+    Height = 25
+    Top = 432
+    Width = 252
+    Position = 0
+    TabOrder = 46
+  end
+  object Image1: TImage
+    Left = 304
+    Height = 546
+    Top = 24
+    Width = 728
+  end
+  object ButtonPivotScalling: TButton
+    Left = 752
+    Height = 25
+    Top = 578
+    Width = 75
+    Caption = 'Pivot Scalling'
+    OnClick = ButtonPivotScallingClick
+    TabOrder = 47
+  end
+  object ButtonPivotRotasi: TButton
+    Left = 848
+    Height = 25
+    Top = 578
+    Width = 75
+    Caption = 'Pivot Rotasi'
+    OnClick = ButtonPivotRotasiClick
+    TabOrder = 48
+  end
+  object ButtonComposit: TButton
+    Left = 944
+    Height = 25
+    Top = 578
+    Width = 75
+    Caption = 'Composit'
+    OnClick = ButtonCompositClick
+    TabOrder = 49
+  end
+  object EditPpx: TEdit
+    Left = 42
+    Height = 23
+    Top = 578
+    Width = 80
+    TabOrder = 50
+  end
+  object Label26: TLabel
+    Left = 16
+    Height = 15
+    Top = 578
+    Width = 19
+    Caption = 'Ppx'
+    ParentColor = False
+  end
+  object EditPpy: TEdit
+    Left = 167
+    Height = 23
+    Top = 578
+    Width = 80
+    TabOrder = 51
+  end
+  object Label27: TLabel
+    Left = 146
+    Height = 15
+    Top = 584
+    Width = 20
+    Caption = 'Ppy'
+    ParentColor = False
+  end
+end
