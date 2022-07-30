@@ -1,7 +1,3 @@
-This Is Some High Level Shit That Somehow Created When I Was High As Fuuuk
+This Is 3D Ortographic projector made in Lazarus
 
-I Need To Control My Drinking Habit
-
-Yes...
-
-Totally Need To
+There's Option to Resize and Rotate according to X, Y, or Z.
